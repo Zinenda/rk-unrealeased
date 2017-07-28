@@ -1,0 +1,17 @@
+title: "Rui Khembo"
+email: rui.khembo@gmail.com
+description: 
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+    - jekyll-seo-tag
+    - jekyll-menus
+    - jekyll-paginate
+    - jekyll-sitemap
+
+# Assets
+sass:
+	sass_dir: assets/_sass
+	style: compressed
