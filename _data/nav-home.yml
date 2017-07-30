@@ -1,0 +1,19 @@
+- name: Página Inicial
+  url: "#top"
+  icon: fa-home
+
+- name: Sobre
+  url: "#sobre"
+  icon: fa-user
+
+- name: Serviços
+  url: "#servicos"
+  icon: fa-tasks
+
+- name: Mini-Portfolio
+  url: "#jobs"
+  icon: fa-briefcase
+
+- name: Preços
+  url: "#precos"
+  icon: fa-dollar

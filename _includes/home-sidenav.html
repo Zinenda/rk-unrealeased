@@ -1,0 +1,9 @@
+<aside id="sideNav" class="side-nav">
+    <ul>
+        {% for item in site.data.nav-home %}
+            <li>
+                <a href="{{ item.url }}" title="{{ item.name }}"><i class="fa fa-1x {{ item.icon }}" class="waves-effect waves-orange"></i> {{ item.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</aside>
