@@ -13,5 +13,19 @@ plugins:
 
 # Assets
 sass:
-	sass_dir: assets/_sass
-	style: compressed
+  sass_dir: assets/_sass
+  style: compressed
+
+image: /assets/images/logo.svg
+logo:
+
+exclude:
+    - bower_components
+
+# Author
+author: Ivo Zinenda
+author_email: info@izitag.site
+
+# Collections
+collections:
+    rui_khembo:

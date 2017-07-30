@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font: {
+        family: "Roboto", sans-serif;
+    }
+    color: #444;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.hero-image {
+    height: 50%;
+    position: relative;
+
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parallax {
+    height: 100%;
+}
+
+.inline-list {
+    display: inline-flex;
+}
