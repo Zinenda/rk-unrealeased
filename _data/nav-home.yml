@@ -1,5 +1,5 @@
 - name: Página Inicial
-  url: "#top"
+  url: /
   icon: fa-home
 
 - name: Sobre
