@@ -18,6 +18,38 @@ img {
     height: auto;
 }
 
+.primary-color {
+    background-color: $primary-color;
+}
+
+.primary-color-text {
+    color: $primary-color;
+}
+
+.primary-color-light {
+    background: $primary-color-light;
+}
+
+.primary-color-light-text {
+    color: $primary-color-light;
+}
+
+.primary-color-dark {
+    background: $primary-color-dark;
+}
+
+.primary-color-dark-text {
+    color: $primary-color-dark;
+}
+
+.secondary-color {
+    background: $secondary-color;
+}
+
+.secondary-color-text {
+    color: $secondary-color;
+}
+
 .page-title {
     text-transform: uppercase;
     

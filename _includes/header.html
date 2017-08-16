@@ -1,11 +1,14 @@
-<header class="page-header parallax-container white-text hide-on-med-and-down" style="height: 100vh;">
-    <div class="parallax">
-        <img src="/assets/images/rui_khembo/11.jpg" alt="{{ site.title }}">
-    </div>
-
-    <div class="center page-title">
-        <img src="{{ site.image }}" alt="{{ site.title }}" width="500">
-        <h2>Produtor<br>Vídeo Maker <br> Fotográfo</h2>
-        <a href="mailto:{{ site.email }}" title="Marque seu Booking" class="btn-large waves-effect waves-light">Booking já!</a>
+<header class="primary-color white-text">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+                <img src="/assets/images/rui_khembo/header/rui_khembo.png" srcset="/assets/images/rui_kehmbo/header/rui_khembo@2x.png 2x, /assets/images/rui_kehmbo/header/rui_khembo@3x.png 3x" alt="{{ site.title }}">
+            </div>
+            <div class="col s12 l6 center">
+                <h1>{% include logo.svg %}</h1>
+                <h2>{{ site.description }}</h2>
+                {% include cta.html %}
+            </div>
+        </div>
     </div>
 </header>
