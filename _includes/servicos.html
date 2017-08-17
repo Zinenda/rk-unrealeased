@@ -7,51 +7,13 @@
 
         <div class="col s12 l6">
             <div class="container">
-                <div class="center">
-                    <h2 class="header">Faço Vídeos & Fotos</h2>
+               <h2 class="center-align header">Faço Fotos & Vídeos</h2>
 
-                    <div class="col s12">
-                        <div class="card horizontal hoverable">
-                            <div class="card-image">
-                                <img src="/assets/images/casamento.jpg" alt="Casamento">
-                            </div>
-
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aspernatur officiis est quod saepe dolore veniam asperiores, quam, hic accusamus, molestiae, fugiat facilis. Natus accusamus, architecto enim, nulla iusto fugit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s12">
-                        <div class="card horizontal hoverable">
-                            <div class="card-image">
-                                <img src="/assets/images/retrato.jpg" alt="Casamento">
-                            </div>
-
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aspernatur officiis est quod saepe dolore veniam asperiores, quam, hic accusamus, molestiae, fugiat facilis. Natus accusamus, architecto enim, nulla iusto fugit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s12">
-                        <div class="card horizontal hoverable">
-                            <div class="card-image">
-                                <img src="/assets/images/aniversario.jpg" alt="Casamento">
-                            </div>
-
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aspernatur officiis est quod saepe dolore veniam asperiores, quam, hic accusamus, molestiae, fugiat facilis. Natus accusamus, architecto enim, nulla iusto fugit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                    {% for post in site.categories %}
+                        <h3>{{ post.category }}</h3>
+                    {% endfor %}
+               </div>
             </div>
         </div>
     </div>

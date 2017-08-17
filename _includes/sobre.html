@@ -4,9 +4,12 @@
             <div class="container">
                 <div class="center">
                     <h2>Quem Sou</h2>
-                    <p class="flow-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla mollitia, asperiores esse minus dolor voluptas possimus ab error numquam, ratione ea delectus eum dicta? Reiciendis harum laudantium, sapiente reprehenderit accusamus.
-                    </p>
+                    {% for info in site.data.author %}
+                        <p class="flow-text">Ola! Eu sou <strong>{{ info.name }}</strong></p>
+                        <p class="flow-text">Nasci aos {{ info.birth }}</p>
+                        <p class="flow-text">Tenho como profissão <strong>{{ info.profissao }}</strong></p>
+                        <p class="flow-text">{{ info.bio }}</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>

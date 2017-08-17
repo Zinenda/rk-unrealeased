@@ -17,3 +17,11 @@
 - name: Preços
   url: "#precos"
   icon: fa-dollar
+
+- name: Galeria
+  url: /portfolio/
+  icon: fa-folder
+
+- name: Blogue
+  url: /blog/
+  icon: fa-rss

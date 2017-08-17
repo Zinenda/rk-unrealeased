@@ -5,6 +5,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+
+paginate: 12
+paginate_path: /page:num/
+permalink: pretty
+
 plugins:
     - jekyll-seo-tag
     - jekyll-menus

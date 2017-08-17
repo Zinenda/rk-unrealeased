@@ -18,7 +18,9 @@ $( document ).ready(function(){
   $('.tap-target').tapTarget('open');
   $('.tap-target').tapTarget('close');
   $('.materialboxed').materialbox();
-  $('.slider').slider();
+  $('.slider').slider({
+    height: 800
+  });
   $('.modal').modal();
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy(

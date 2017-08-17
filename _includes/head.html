@@ -35,4 +35,10 @@
     {% seo %}
 
     <link rel="stylesheet" href="/assets/css/style.css" media="screen">
+
+    {% if page.layout == "page" %}
+        <style>
+            {% include lightbox.min.css %}
+        </style>
+    {% endif %}
 </head>

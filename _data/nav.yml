@@ -1,0 +1,11 @@
+- name: Página Inicial
+  url: /
+  icon: fa-home
+
+- name: Galeria
+  url: /portfolio/
+  icon: fa-folder
+
+- name: Blogue
+  url: /blog/
+  icon: fa-rss
