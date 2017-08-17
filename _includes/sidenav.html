@@ -3,20 +3,20 @@
         {% if page.layout == "page" %}
             {% for item in site.data.nav %}
                 <li>
-                    <a href="{{ item.url }}" title="{{ item.name }}"><i class="fa fa-1x {{ item.icon }}" class="waves-effect waves-orange"></i> {{ item.name }}</a>
+                    <a href="{{ item.url }}" title="{{ item.name }}" class="waves-effect waves-orange"><i class="fa fa-1x {{ item.icon }}"></i> {{ item.name }}</a>
                 </li>
             {% endfor %}
 
             {% elsif page.layout == "post" %}
                 {% for item in site.data.nav-home %}
                     <li>
-                        <a href="{{ item.url }}" title="{{ item.name }}"><i class="fa fa-1x {{ item.icon }}" class="waves-effect waves-orange"></i> {{ item.name }}</a>
+                        <a href="{{ item.url }}" title="{{ item.name }}" class="waves-effect waves-orange"><i class="fa fa-1x {{ item.icon }}"></i> {{ item.name }}</a>
                     </li>
                 {% endfor %}
             {% else %}
                 {% for item in site.data.nav-home %}
                     <li>
-                        <a href="{{ item.url }}" title="{{ item.name }}"><i class="fa fa-1x {{ item.icon }}" class="waves-effect waves-orange"></i> {{ item.name }}</a>
+                        <a href="{{ item.url }}" title="{{ item.name }}" class="waves-effect waves-orange"><i class="fa fa-1x {{ item.icon }}"></i> {{ item.name }}</a>
                     </li>
                 {% endfor %}
         {% endif %}
