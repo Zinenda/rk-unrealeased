@@ -1,0 +1,22 @@
+---
+layout: page
+title: Blogue
+permalink: /blog/
+---
+
+{% for post in site.posts %}
+    <article class="row">
+        <div class="card-panel hoverable">
+            <div class="col s12 l4">
+                <img src="{{ post.image }}" alt="{{ post.title }}">
+            </div>
+
+            <div class="col s12 l8">
+                <div class="center">
+                    <h2 class="header">{{ post.title }}</h2>
+                    <h3><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></h3>
+                </div>
+            </div>
+        </div>
+    </article>
+{% endfor %}
